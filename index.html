@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>MOVIE.COM</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="page3.html"><h2 style="font-family"><div class="glyphicon glyphicon-film"></div><strong>MOVIE.COM</strong></h2></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="https://localhost:44372/index.html">首頁</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://localhost:44372/Movie/Login">登入</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://localhost:44372/Movie/Index">訂票</a>
+                            </li>
+                           
+                                <span class="navbar-text" style="text-align:right">(要登入才能訂票!!!!!!)</span>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="">1101662 陳儀蓁</a>
+                            </li>
+                                <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                種類
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="page5.html">平底鞋</a></li>
+                <li><a class="dropdown-item" href="page6.html">布鞋</a></li>
+                <li><a class="dropdown-item" href="page7.html">靴子</a></li>
+
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">其他</a></li>
+            </ul>
+        </li>-->
+
+                        </ul>
+
+
+
+                    </div>
+                </div>
+            </nav>
+
+            <div class="row">
+                <div class="alert alert-danger alert-dismissible" role="alert">
+                    <button type="button" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" class="close" data-dismiss="alert">
+                        <span aria-hidden="true">×</span>
+                        <span class="sr-only">關閉</span>
+                    </button>
+
+                    <marquee>
+                        <p style="font-family: Impact; font-size: 18pt">12/12~12/25聖誕優惠第二張電影票九折，有會員八折，爆米花八折</p>
+                    </marquee>
+                </div>
+            </div>
+
+        </div>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- 輪播指示 -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class=""></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1" class="active" aria-current="true"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2" class=""></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="3" class=""></li>
+            </ol>
+            <!-- 輪播內容 -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <a href="https://localhost:44372/Movie/Movie">
+                        <img src="images\2.jpeg" class="d-block w-100" alt="陶比版">
+                    </a><div class="carousel-caption d-none d-md-block">
+                        <a href="https://localhost:44372/Movie/Movie"></a>
+                        <h5>捍衛任務4</h5>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <a href="https://localhost:44372/Movie/Movie">
+                        <img src="images\5.jpeg" class="d-block w-100">
+                    </a><div class="carousel-caption d-none d-md-block">
+                        <a href="https://localhost:44372/Movie/Movie"></a>
+                        <h5>雞不可失</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://localhost:44372/Movie/Movie">
+                        <img src="images\3.jpeg" class="d-block w-100" >
+                    </a><div class="carousel-caption d-none d-md-block">
+                        <a href="https://localhost:44372/Movie/Movie"></a>
+                        <h5>窒友梅根</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://localhost:44372/Movie/Movie">
+                        <img src="images\4.jpeg" class="d-block w-100" >
+                    </a><div class="carousel-caption d-none d-md-block">
+                        <a href="https://localhost:44372/Movie/Movie"></a>
+                        <h5>猩球崛起</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- 輪播控制 -->
+            <a class="carousel-control-prev" href="http://140.138.144.66/1101webAproj/1101619/index.html#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="http://140.138.144.66/1101webAproj/1101619/index.html#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-lg-pull-6">
+                <div class="card text-center ">
+                    <div class="card-header">
+                        <font color="red"><h5 style="font-family"><strong>MERRY　CHRISTMAS</strong></h5></font>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" style="font-family"><font color="#990000"><strong>聖誕優惠</strong></font></h6>
+                        <p class="card-text">加購任何商品(爆米花、吉拿棒、雪碧、可樂等等…一律半價)</p>
+                        <a href="https://localhost:44372/Movie/Index" class="btn  btn-danger">馬上訂票</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <font color="red">
+                            <b>
+                                12/12~12/25
+                            </b>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer footer-light bg-light">
+            <hr>
+            <div class="container mt-5" style="text-align:center">
+                <p>©電影購票平台</p>
+                <p></p><address>
+                    聯絡我們:<a href="mailto:s1101662@mail.yzu.edu.tw" class="text-decoration-none text-reset">MOVIE@gmail.com</a><p></p>
+                </address>客服專線:<a href="tel:+886-975539057" class="text-decoration-none text-reset">0975539057</a><p></p>
+                <p class="text-end"><a href="http://140.138.144.66/1101webAproj/1101619/index.html" class="text-decoration-none">Back to top</a></p>
+            </div>
+        </footer>
+</body>
+</html>
